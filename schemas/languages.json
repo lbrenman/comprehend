@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "LanguageCode": {
+            "type": "string"
+          },
+          "Score": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

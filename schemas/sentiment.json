@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "allOf": [{
+         "$ref": "schema:///model/sentiment-ex"
+    }, {
+        "type": "object",
+        "properties": {
+            "SentimentScore": {
+                "$ref": "schema:///model/SentimentScore"
+            }
+        }
+    }]
+}
